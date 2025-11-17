@@ -10,8 +10,6 @@
   "technical_contact": {
     "team": "Equipe de Tecnologia - InterTV",
     "email": "tecnologia@redeintertv.com.br",
-    "phone_primary": "(22) 2647-9918",
-    "phone_secondary": "(21) 99688-2503"
   },
   "build": {
     "optimized": true,
@@ -26,4 +24,5 @@
     ]
   }
 }
+
 
