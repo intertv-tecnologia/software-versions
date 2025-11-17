@@ -1,0 +1,28 @@
+{
+  "name": "Bellatrix Robot",
+  "version": "2.0.0",
+  "release_date": "2025-11-17",
+  "description": "Sistema mestre de automação para ingestão, verificação e gerenciamento de materiais na InterTV Cabo Frio.",
+  "developer": {
+    "name": "Kayo Macedo",
+    "email": "kayo.macedo@redeintertv.com.br"
+  },
+  "technical_contact": {
+    "team": "Equipe de Tecnologia - InterTV",
+    "email": "tecnologia@redeintertv.com.br",
+    "phone_primary": "(22) 2647-9918",
+    "phone_secondary": "(21) 99688-2503"
+  },
+  "build": {
+    "optimized": true,
+    "cx_freeze": "Python 3.12 / Windows AMD64",
+    "notes": [
+      "Otimização de carregamento e performance",
+      "Correção de caminhos internos para modo build",
+      "Lazy import dos módulos pesados",
+      "Melhoria na estabilidade das threads de cópia",
+      "Ajustes no ping periódico ao servidor",
+      "Melhoria no carregamento do CSV de ignorados"
+    ]
+  }
+}
