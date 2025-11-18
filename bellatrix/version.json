@@ -9,7 +9,7 @@
   },
   "technical_contact": {
     "team": "Equipe de Tecnologia - InterTV",
-    "email": "tecnologia@redeintertv.com.br",
+    "email": "tecnologia@redeintertv.com.br"
   },
   "build": {
     "optimized": true,
@@ -24,5 +24,3 @@
     ]
   }
 }
-
-
