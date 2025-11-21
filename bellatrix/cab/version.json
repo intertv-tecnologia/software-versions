@@ -18,11 +18,11 @@
     },
 
     "automation": {
-        "station": "InterTV Natal",
-        "region": "Rio Grande do Norte",
+        "station": "InterTV Cabo Frio",
+        "region": "Cabo Frio (RJ)",
         "environment": "production",
         "category": "ingestão e verificação de materiais",
-        "responsible": "Setor de Tecnologia InterTV RN"
+        "responsible": "Setor de Tecnologia InterTV Cabo Frio"
     },
 
     "build": {
@@ -46,7 +46,7 @@
         "auto_update_enabled": true,
         "update_url": "http://192.100.0.151:9000/download/latest/",
         "install_dir": "C:\\Bellatrix",
-        "version_repo": "https://raw.githubusercontent.com/intertv-tecnologia/software-versions/refs/heads/main/bellatrix/natal/version.json"
+        "version_repo": "https://raw.githubusercontent.com/intertv-tecnologia/software-versions/refs/heads/main/bellatrix/cab/version.json"
     },
 
     "logging": {
