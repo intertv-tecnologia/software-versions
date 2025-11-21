@@ -1,51 +1,56 @@
 {
-  "name": "Bellatrix Robot",
-  "instance": "Bellatrix (Natal)",
-  "version": "2.4.0",
-  "release_date": "2025-11-17",
-  "description": "Sistema mestre de automação para ingestão, verificação e gerenciamento de materiais na InterTV Cabo Frio.",
+    "name": "Bellatrix Robot",
+    "instance": "Bellatrix (Natal)",
+    "version": "2.4.0",
+    "release_date": "2025-11-17",
+    "description": "Sistema mestre de automação para ingestão, verificação e gerenciamento de materiais na InterTV Cabo Frio.",
 
-  "developer": {
-    "name": "Kayo Macedo",
-    "email": "kayo.macedo@redeintertv.com.br",
-    "github": "https://github.com/kayomacedo"
-  },
+    "developer": {
+        "name": "Kayo Macedo",
+        "email": "kayo.macedo@redeintertv.com.br",
+        "github": "https://github.com/kayomacedo"
+    },
 
-  "technical_contact": {
-    "team": "Equipe de Tecnologia - InterTV",
-    "email": "tecnologia@redeintertv.com.br",
-    "support_hours": "Seg-Sex, 08:00–18:00"
-  },
+    "technical_contact": {
+        "team": "Equipe de Tecnologia - InterTV",
+        "email": "tecnologia@redeintertv.com.br",
+        "support_hours": "Seg-Sex, 08:00–18:00"
+    },
 
-  "automation": {
-    "station": "InterTV Natal",
-    "region": "Rio Grande do Norte",
-    "environment": "production",
-    "category": "ingestão e verificação de materiais",
-    "responsible": "Setor de Tecnologia InterTV RN"
-  },
+    "automation": {
+        "station": "InterTV Natal",
+        "region": "Rio Grande do Norte",
+        "environment": "production",
+        "category": "ingestão e verificação de materiais",
+        "responsible": "Setor de Tecnologia InterTV RN"
+    },
 
-  "build": {
-    "optimized": true,
-    "cx_freeze": "Python 3.12 / Windows AMD64",
-    "target_os": "Windows 10+",
-    "last_tested": "2025-11-16",
-    "hash": "sha256:00000000000000000000000000000000",
-    "notes": [
-      "Otimização de carregamento e performance",
-      "Correção de caminhos internos para modo build",
-      "Lazy import dos módulos pesados",
-      "Melhoria na estabilidade das threads de cópia",
-      "Ajustes no ping periódico ao servidor",
-      "Melhoria no carregamento do CSV de ignorados",
-      "Implementação de sistema automático de backup e restauração"
-    ]
-  },
+    "build": {
+        "optimized": true,
+        "cx_freeze": "Python 3.12 / Windows AMD64",
+        "target_os": "Windows 10+",
+        "last_tested": "2025-11-16",
+        "hash": "sha256:00000000000000000000000000000000",
+        "notes": [
+            "Otimização de carregamento e performance",
+            "Correção de caminhos internos para modo build",
+            "Lazy import dos módulos pesados",
+            "Melhoria na estabilidade das threads de cópia",
+            "Ajustes no ping periódico ao servidor",
+            "Melhoria no carregamento do CSV de ignorados",
+            "Implementação de sistema automático de backup e restauração"
+        ]
+    },
 
-  "update": {
-    "auto_update_enabled": true,
-    "update_url": "http://192.100.0.151:9000/download/latest/",
-    "version_repo": "https://raw.githubusercontent.com/intertv-tecnologia/software-versions/refs/heads/main/bellatrix/version.json"
-  }
+    "update": {
+        "auto_update_enabled": true,
+        "update_url": "http://192.100.0.151:9000/download/latest/",
+        "install_dir": "C:\\Bellatrix",
+        "version_repo": "https://raw.githubusercontent.com/intertv-tecnologia/software-versions/refs/heads/main/bellatrix/natal/version.json"
+    },
+
+    "logging": {
+        "enabled": true,
+        "url": "http://192.100.0.151:9000/logs/"
+    }
 }
-
